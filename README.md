@@ -10,13 +10,13 @@ backdoor allow you to execute any command as root in linux machine with authoriz
 env GOOS=linux GOARCH=amd64 go build -o backdoor main.go
 ```
 
-### setuid for backdoor binary and permission for group execution only
+### Setuid for backdoor binary and permission for group execution only
 
 ```bash
 chmod 4710 backdoor
 ```
 
-### set owner of binary to root and group to desire group
+### Set owner of binary to root and group to desire group
 
 ```bash
 chown root:group backdoor
@@ -30,7 +30,7 @@ backdoor whoami
 
 User should return root.
 
-### How to use backdoor
+## How to use backdoor
 
 Backdoor can use to execute any commands as a root
 
