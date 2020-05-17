@@ -32,7 +32,7 @@ User should return root.
 
 ## How to use backdoor
 
-Backdoor can use to execute any commands as a root
+Backdoor can be use to execute any commands as a root
 
 ### Example
 
