@@ -29,3 +29,15 @@ backdoor whoami
 ```
 
 User should return root.
+
+### How to use backdoor
+
+Backdoor can use to execute any commands as a root
+
+### Example
+
+```bash
+backdoor ls -ltr
+backdoor vi test.txt
+backdoor sudo su - user1
+```
