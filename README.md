@@ -1,6 +1,6 @@
 # backdoor
 
-backdoor allow you to execute any command as root in linux machine with authorize groups.
+backdoor allow you to execute any command as root in linux machine with authorize group.
 
 ## How to setup
 
